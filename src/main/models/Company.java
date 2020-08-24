@@ -1,13 +1,14 @@
 package main.models;
 
 import java.util.List;
+import java.util.Map;
 
 public class Company {
 
     private String name;
-    private List<Double> pricesPerEarning;
+    private Map<String, String> pricesPerEarning;
     private double cape;
-    private List<Double> returnsOfAssets;
+    private Map<String, String> returnsOfAssets;
     private double roaMean;
     private int PERankingPos;
     private int ROARankingPos;
@@ -22,15 +23,30 @@ public class Company {
     private void calculateCape() {
         if (pricesPerEarning.isEmpty())
             return;
-        double sum = pricesPerEarning.stream().mapToDouble(Double::doubleValue).sum();
+        double sum = pricesPerEarning.values().stream()
+                .filter(value -> !value.equals(""))
+                .mapToDouble(Double::parseDouble)
+                .sum();
         this.cape = sum / pricesPerEarning.size();
     }
 
     private void calculateRoaMean() {
         if (returnsOfAssets.isEmpty())
             return;
-        double sum = returnsOfAssets.stream().mapToDouble(Double::doubleValue).sum();
+        int mapSize = returnsOfAssets.size();
+        int consideredElements = 4;
+        if (mapSize < consideredElements)
+            consideredElements = mapSize;
+        double sum = returnsOfAssets.values().stream()
+                .skip((long)mapSize - consideredElements)
+                .filter(value -> !value.equals(""))
+                .mapToDouble(Double::parseDouble)
+                .sum();
         this.roaMean = sum / returnsOfAssets.size();
+    }
+
+    public double getIndicatorsSum() {
+        return roaMean + cape;
     }
 
     public double getRoaMean() {
@@ -63,23 +79,23 @@ public class Company {
 
     public static final class Builder {
         private String name;
-        private List<Double> pricesPerEarning;
+        private Map<String, String> pricesPerEarning;
         private double cape;
         private int PERankingPos;
         private int ROARankingPos;
-        private List<Double> returnsOfAssets;
+        private Map<String, String> returnsOfAssets;
 
         public Builder name(String name) {
             this.name = name;
             return this;
         }
 
-        public Builder pricesPerEarning(List<Double> pricesPerEarning) {
+        public Builder pricesPerEarning(Map<String, String> pricesPerEarning) {
             this.pricesPerEarning = pricesPerEarning;
             return this;
         }
 
-        public Builder returnsOfAssets(List<Double> returnsOfAssets) {
+        public Builder returnsOfAssets(Map<String, String> returnsOfAssets) {
             this.returnsOfAssets = returnsOfAssets;
             return this;
         }

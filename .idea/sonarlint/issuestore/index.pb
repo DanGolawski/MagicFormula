@@ -7,8 +7,6 @@ W
 'src/main/services/CompaniesService.java,0\1\01a1d750de5285f108a5bdfca87a8bce89a5df1c
 J
 src/main/MagicFormula.java,f\d\fd86a945333ce9722c14b2b2c17f171f94ad7d5a
-E
-src/main/Company.java,a\6\a6da6c415e4f0bb4ea7eccadd9f4945f82895b91
 U
 %src/main/services/RankingService.java,c\d\cd1bfcc954838db25def52d7c21da4acb423dc2c
 L
