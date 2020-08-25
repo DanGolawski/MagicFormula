@@ -11,3 +11,5 @@ U
 %src/main/services/RankingService.java,c\d\cd1bfcc954838db25def52d7c21da4acb423dc2c
 L
 src/main/models/Company.java,d\a\da282663e20d3c73585e064d04c67977a2c402d8
+R
+"src/main/services/DataService.java,b\2\b2575307f56314594982738352fd65b3076df1c1

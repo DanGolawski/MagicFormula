@@ -1,13 +1,14 @@
 
-{squid:S00116"WRename this field "PERankingPos" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(äõ¼¶ÿÿÿÿÿ8§—İ¿À.
-Ksquid:S1068C"(Remove this unused "cape" private field.(˜…ÔËùÿÿÿÿ8ºô¡ÂÀ.
-Ssquid:S1068D"0Remove this unused "PERankingPos" private field.(äõ¼¶ÿÿÿÿÿ8ºô¡ÂÀ.
-psquid:S00117<"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(äÕõ¨8ÇÓäÂÀ.
-Tsquid:S1068E"1Remove this unused "ROARankingPos" private field.(òœ×Éúÿÿÿÿ8ºô¡ÂÀ.
-{squid:S00116D"WRename this field "PERankingPos" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(äõ¼¶ÿÿÿÿÿ8ºô¡ÂÀ.
-Psquid:S1068"2Remove this unused "capitalization" private field.(¦²Èº8«¨«ÔÁ.
-|squid:S00116E"XRename this field "ROARankingPos" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(òœ×Éúÿÿÿÿ8ºô¡ÂÀ.
-usquid:S001174"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Èñ¹»úÿÿÿÿ8ÇÓäÂÀ.
-Csquid:S3398" Move this method into "Builder".(‘Š»•ûÿÿÿÿ8×í¹ìÀ.
-|squid:S00116"XRename this field "ROARankingPos" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(òœ×Éúÿÿÿÿ8§—İ¿À.
->squid:S3398" Move this method into "Builder".(™µµ»8½”ÌÔÁ.
+|squid:S00116U"XRename this field "ROARankingPos" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(òœ×Éúÿÿÿÿ8ºô¡ÂÀ.
+{squid:S00116T"WRename this field "PERankingPos" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(äõ¼¶ÿÿÿÿÿ8ºô¡ÂÀ.
+{squid:S00116"WRename this field "PERankingPos" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(äõ¼¶ÿÿÿÿÿ8§—İ¿À.
+|squid:S00116"XRename this field "ROARankingPos" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(òœ×Éúÿÿÿÿ8§—İ¿À.
+Ksquid:S1068S"(Remove this unused "cape" private field.(˜…ÔËùÿÿÿÿ8ú¼‰‹Â.
+Tsquid:S1068U"1Remove this unused "ROARankingPos" private field.(òœ×Éúÿÿÿÿ8ºô¡ÂÀ.
+usquid:S00117D"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Èñ¹»úÿÿÿÿ8ÇÓäÂÀ.
+psquid:S00117L"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(äÕõ¨8ÇÓäÂÀ.
+[squid:UselessImportCheck"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8½¥éŠÂ.
+Csquid:S3398" Move this method into "Builder".(‘Š»•ûÿÿÿÿ8×í¹ìÀ.
+Psquid:S1068"2Remove this unused "capitalization" private field.(¦²Èº8«¨«ÔÁ.
+>squid:S3398!" Move this method into "Builder".(™µµ»8½”ÌÔÁ.
+Ssquid:S1068T"0Remove this unused "PERankingPos" private field.(äõ¼¶ÿÿÿÿÿ8ºô¡ÂÀ.

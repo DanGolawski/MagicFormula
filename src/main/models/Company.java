@@ -77,6 +77,14 @@ public class Company {
         this.ROARankingPos = ROARankingPos;
     }
 
+    public Map<String, String> getPricesPerEarning() {
+        return pricesPerEarning;
+    }
+
+    public Map<String, String> getReturnsOfAssets() {
+        return returnsOfAssets;
+    }
+
     public static final class Builder {
         private String name;
         private Map<String, String> pricesPerEarning;

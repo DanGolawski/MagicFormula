@@ -1,11 +1,8 @@
 
-[
-squid:S106'"9Replace this use of System.out or System.err by a logger.(äÚâœÿÿÿÿÿ8ÛûšäÁ.
+_squid:UselessImportCheck"4Remove this unused import 'java.util.regex.Matcher'.(ëÅ›ã8¼ø¬ˆÂ.
+gsquid:UnusedPrivateMethodE"6Remove this unused private "shortenToTenYears" method.(™Ö½Ùûÿÿÿÿ8Ü·ˆÂ.
+^squid:UselessImportCheck".Remove this unused import 'java.util.HashMap'.(™˜”€ùÿÿÿÿ8“¨ ˆÂ.
+dsquid:UselessImportCheck"4Remove this unused import 'java.util.regex.Pattern'.(Ã•…Äúÿÿÿÿ8¼ø¬ˆÂ.
+asquid:UselessImportCheck"6Remove this unused import 'org.jsoup.select.Elements'.(ëÂè8Ü·ˆÂ.
 V
-squid:S106]"9Replace this use of System.out or System.err by a logger.(ôÛ˜Á8ù¶÷ÔÁ.
-[
-squid:S106("9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8ÛûšäÁ.
-[
-squid:S106"9Replace this use of System.out or System.err by a logger.(Ğ‰ÉÊûÿÿÿÿ8Üô†Â.
-[
-squid:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8Üô†Â.
+squid:S106$"9Replace this use of System.out or System.err by a logger.(«‹Îõ8¯ŸÆ‹Â.
